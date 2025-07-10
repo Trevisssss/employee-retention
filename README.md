@@ -7,6 +7,8 @@ Devido à preocupação com a satisfação e a alta rotatividade dos colaborador
 - Análise de correlação entre variáveis
 
 Observações:
+
+
 ![SatisfactionLevelPorTempo](SatisfactionLevelPorTempo.png)
 
 - O Boxplot acima mostra que pessoas com 4 anos de companhia aparentemente tendem a ter uma variação maior na satisfação em comparação com os demais, então algo está fazendo com que esses colaboradores tenham uma impressão pior.

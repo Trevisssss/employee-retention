@@ -21,6 +21,17 @@ Pode se perceber que os funcionários que estão há 4 anos na empresa possuem o
 
 A partir deste gráfico, nota-se que os funcionários com 4 anos de empresa costumam ter um número maior de projetos e horas trabalhadas em relação aos demais. Isso pode indicar maior envolvimento nas atividades, mas também sugere uma possível sobrecarga de trabalho. Considerando ainda os salários mais baixos ou médios desse grupo, é possível que esses colaboradores se sintam desvalorizados ao se compararem com outros, o que pode contribuir para a insatisfação e eventual saída da empresa.
 
+_Para uma maior certeza, vamos ver se a rotatividade desses funcionários é maior do que a dos demais._
+
 ![RotatividadeGeralvs4Anos](RotatividadeGeralvs4Anos.png)
 
-Aqui podemos observar que a taxa de rotatividade dos funcionários com 4 anos de empresa é significativamente maior do que a dos demais funcionários. Isso reforça a ideia de que esses colaboradores estão insatisfeitos com suas condições de trabalho e remuneração, o que pode estar contribuindo para sua decisão de deixar a empresa.# employee-retention
+Aqui podemos observar que a taxa de rotatividade dos funcionários com 4 anos de empresa é significativamente maior do que a dos demais funcionários. Isso reforça a ideia de que esses colaboradores estão insatisfeitos com suas condições de trabalho e remuneração, o que pode estar contribuindo para sua decisão de deixar a empresa.
+
+Para mais uma averiguação, vamos analisar a distribuição da variável `last_evaluation` entre os funcionários com 4 anos e os demais, para verificar se há diferenças significativas na avaliação final desses grupos.
+
+
+![DistribuicaoLastEvaluation](DistribuicaoLastEvaluation.png)
+
+Uma possível premissa poderia ser de que os funcionários com 4 anos de empresa teriam uma avaliação final mais baixa, indicando insatisfação. No entanto, a comparação entre os dois grupos mostra que os funcionários com 4 anos de empresa têm uma certa tendência a ter avaliações mais altas, enquanto os demais funcionários apresentam uma distribuição mais uniforme. 
+
+Isso explica o fato de eles receberem mais projetos na média, pois a empresa tende a confiar mais nesses funcionários, mesmo que eles estejam insatisfeitos. Porém, ao se compararem com os demais poderia gerar muita instatisfação explicando a baixa avaliação final, e maior rotatividade.

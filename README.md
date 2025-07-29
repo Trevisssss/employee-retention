@@ -176,10 +176,14 @@ Baseado nas variáveis de maior impacto, podemos analisar mais profundamente e s
 
 ### 1. Carga de Trabalho
 
-Pensando em uma variável que é possível agir diretamente e imediatamente, temos o número de projetos. Se olharmos no gráfico acima novamente, vemos que a partir de 5 projetos, a carga horária média mensal aumenta, ultrapassando o que seria o esperado de 160 horas, o que irá impactar diretamente na sua satisfação ao longo do tempo.
+Pensando em uma variável que é possível agir diretamente e imediatamente, diferente do nível de satisfação, temos o número de projetos. Se olharmos no gráfico acima novamente, vemos que a partir de 5 projetos, a carga horária média mensal aumenta, ultrapassando o que seria o esperado de 160 horas, e isso irá impactar diretamente na sua satisfação ao longo do tempo.
 
-Se olharmos a distribuição do número de projetos, vemos que os funcionários com 4 anos de empresa, estão com mais projetos na média que os demais, o que é compreensível dado o desempenho nas suas avaliações, porém, os torna mais propensos a insatisfação, explicando a maior rotatividade. 
+Se olharmos a distribuição do número de projetos, vemos que os funcionários com 4 anos de empresa, estão com mais projetos na média  que os demais (gráfico da direita), o que é compreensível pois provavelmente são os mais confiáveis dado o desempenho nas suas avaliações, porém, os torna mais propensos a insatisfação devido ao excesso de estresse gerado pelo trabalho, explicando a maior rotatividade.
 
 ![NúmerodeProjetosPorGrupodeFuncionários](NúmerodeProjetosPorGrupodeFuncionários.png)
 
-Dessa forma funcionários com 2/3 anos de empresa podem receber alguns desses projetos, ou alguns com mais de 6 anos. Diminuindo a carga de trabalho total e melhorando a satisfação e produtividade dos funcionários no geral.
+**Recomendação:** Dessa forma funcionários com 2/3 anos de empresa podem receber alguns desses projetos, ou alguns com mais de 6 anos (principalmente os que possuem 10 anos, dado a distribuição e a média). Diminuindo a carga de trabalho total e melhorando a satisfação e produtividade dos funcionários no geral. 
+
+Atuando nessa variável, visto que tem um grande impacto na saída, baseado no resultado do modelo, espera-se que em um curto espaço de tempo, a rotatividade deve diminuir.
+
+É importante também criar um acompanhamento contínuo do feedback dos colaboradores, para se possa monitorar a eficácia das ações implementadas e ajustar conforme necessário.

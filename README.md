@@ -5,9 +5,12 @@
 Esse documento é composto pelas seguintes seções:
 
 1. Contexto e Objetivo
-2. Principais Descobertas
-3. Recomendações
-4. Impacto Esperado
+2. Estrutura dos Dados
+3. Considerações Sobre os Dados
+4. Tecnologias Utilizadas
+5. Principais Descobertas da Exploração
+6. Modelo Escolhido e Resultados
+7. Recomendações
 ```
 
 ## Objetivo 

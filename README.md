@@ -46,11 +46,11 @@ Linguagem:
 Python
 
 Bibliotecas:
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
+- NumPy ( Para alguns cálculos em arrays )
+- Pandas ( Para Manipulação dos Dados )
+- Matplotlib ( Para Visualização de Dados )
+- Seaborn ( Para Visualização dos Dados )
+- Scikit-learn ( Para Modelagem e Avaliação de Modelos )
 
 IDE: 
 Visual Studio Code
@@ -175,18 +175,23 @@ Seguido pela quantidade de `horas e número de projetos`, que também são fator
 
 ## Recomendações
 
-Baseado nas variáveis de maior impacto, podemos analisar mais profundamente e sugerir ações.
+Baseado nas variáveis de maior impacto, e após analisar mais afundo essas variáveis, vamos ver ações que irão ajudar a diminuir a rotatividade de funcionários, e melhorar a satisfação dos mesmos.
 
-### 1. Carga de Trabalho
+![Saídas](PrincipaisVariáveisPorSaída.png)
 
-Pensando em uma variável que é possível agir diretamente e imediatamente, diferente do nível de satisfação, temos o número de projetos. Se olharmos no gráfico acima novamente, vemos que a partir de 5 projetos, a carga horária média mensal aumenta, ultrapassando o que seria o esperado de 160 horas, e isso irá impactar diretamente na sua satisfação ao longo do tempo.
+Quando olhamos para o nível de satisfação no gráfico acima, uma grande parte dos funcionários que saem da empresa estão com nível de satisfação abaixo de 0.6. Como uma das variáveis de maior importância é a carga de trabalho, vamos filtrar esses funcionários e ver como estão os projetos estão distribuídos entre eles.
 
-Se olharmos a distribuição do número de projetos, vemos que os funcionários com 4 anos de empresa, estão com mais projetos na média  que os demais (gráfico da direita), o que é compreensível pois provavelmente são os mais confiáveis dado o desempenho nas suas avaliações, porém, os torna mais propensos a insatisfação devido ao excesso de estresse gerado pelo trabalho, explicando a maior rotatividade.
+
+![Número de projetos Por Baixa Satisfação](NumProjetosBaixaSatisfacao.png)
+
+Podemos ver que esses funcionários estão com picos de saída com 1-2 projetos ou acima de 5 projetos, o que indica que eles podem estar sobrecarregados ou não desafiados o suficiente.
+
+**Então o ideal é que cada funcionário tenha entre 3 e 5 projetos.**
+
+E se olharmos o gráfico abaixo, vemos que há espaço pra uma adequação de número de projetos, existem funcionários com 2-3 anos de empresa com menos de 3 projetos, esses seriam os primeiros a receberem projetos de funcionários com 4 anos de empresa, que na maioria, estão sobrecarregados. E como vimos acima isso se dá provavelmente por estarem melhores nas avaliações de desempenho na média.
+
+O que se espera é que ao longo do tempo, com os projetos melhores distribuídos, isso impacte no nível de satisfação. Isso ainda sem pensar em aumentar o salário, dessa forma evitando custos maiores de imediato, e ainda tendo um impacto significativo.
 
 ![NúmerodeProjetosPorGrupodeFuncionários](NúmerodeProjetosPorGrupodeFuncionários.png)
 
-**Recomendação:** Dessa forma funcionários com 2/3 anos de empresa podem receber alguns desses projetos, ou alguns com mais de 6 anos (principalmente os que possuem 10 anos, dado a distribuição e a média). Diminuindo a carga de trabalho total e melhorando a satisfação e produtividade dos funcionários no geral. 
 
-Atuando nessa variável, visto que tem um grande impacto na saída, baseado no resultado do modelo, espera-se que em um curto espaço de tempo, a rotatividade deve diminuir.
-
-É importante também criar um acompanhamento contínuo do feedback dos colaboradores, para se possa monitorar a eficácia das ações implementadas e ajustar conforme necessário.

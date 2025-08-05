@@ -194,4 +194,26 @@ O que se espera é que ao longo do tempo, com os projetos melhores distribuídos
 
 ![NúmerodeProjetosPorGrupodeFuncionários](NúmerodeProjetosPorGrupodeFuncionários.png)
 
+<br>
 
+Mas e os funcionários que possuem entre 3 e 5 projetos, mas ainda estão saindo?
+
+<br>
+
+
+![Mais que 4 anos, 3-5 projetos e saíram](NumProjetosMaisde4AnosESairam.png)
+
+Neste gráfico, podemos ver que muitos funcionários que estão a mais de 4 anos na empresa e não parecem estar sobrecarregados estão saindo. O que poderia estar causando isso?
+
+Possível explicação:
+
+
+![Promoção Funcionários com mais de 4](QtdFuncionariosComPromocaoMaisde4Anos.png)
+
+Apenas **1 funcionário** acima dos 4 anos recebeu promoção nos últimos 5 anos. Isso poderia ser um indicativo de insatisfação e frustração.
+
+![Última Avaliação Funcionários Que Saíram E Mais de 5 Anos](ÚltimaAvaliaçãoFuncionáriosQueSaíramEMaisde5Anos.png)
+
+Aqui mais um argumento que reforçaria o motivo da saída desses funcionários. A grande maioria dos colaboradores tiveram uma pontuação excelente (acima 0.8), dessa forma devem estar realmente frustrados e desmotivados por não terem recebido.
+
+Para esses funcionários deve-se considerar uma promoção.

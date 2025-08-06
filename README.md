@@ -86,12 +86,12 @@ Mas o que poderia justificar o menor salário, talvez seja algumas das seguintes
 
 Essas variáveis também foram investigadas:
 
-_Carga de Trabalho:_
+#### Carga de Trabalho
 ![Projetos e Horas Por Grupo de Funcionários](ProjetosEHoras4AnosvsOutros.png)
 
 <br>
 
-_Desempenho:_
+#### Desempenho:
 ![Distribuição da Última Avaliação](DistribuicaoLastEvaluation.png)
 
 Na verdade, o oposto foi encontrado. Funcionários com 4 anos de empresa estão trabalhando mais horas e participando de mais projetos, além de terem uma média/mediana de avaliação maior do que os demais grupos. 
@@ -175,7 +175,7 @@ Seguido pela quantidade de `horas e número de projetos`, que também são fator
 
 ## Recomendações
 
-Baseado nas variáveis de maior impacto, e após analisar mais afundo essas variáveis, vamos ver ações que irão ajudar a diminuir a rotatividade de funcionários, e melhorar a satisfação dos mesmos.
+Baseado nas variáveis de maior impacto, e após analisar mais afundo essas variáveis, vamos ver ações que irão ajudar a diminuir a rotatividade de funcionários, e melhorar a satisfação dos mesmos. _A ideia aqui é focar naqueles que saíram pra entender os prováveis motivos_.
 
 ![Saídas](PrincipaisVariáveisPorSaída.png)
 
@@ -188,32 +188,58 @@ Podemos ver que esses funcionários estão com picos de saída com 1-2 projetos 
 
 **Então o ideal é que cada funcionário tenha entre 3 e 5 projetos.**
 
-E se olharmos o gráfico abaixo, vemos que há espaço pra uma adequação de número de projetos, existem funcionários com 2-3 anos de empresa com menos de 3 projetos, esses seriam os primeiros a receberem projetos de funcionários com 4 anos de empresa, que na maioria, estão sobrecarregados. E como vimos acima isso se dá provavelmente por estarem melhores nas avaliações de desempenho na média.
+E se olharmos o **gráfico abaixo**, vemos que há espaço pra uma adequação de número de projetos, existem funcionários com 2-3 anos de empresa com menos de 3 projetos, esses seriam os primeiros a receberem projetos de funcionários com 4 anos de empresa, que na maioria, estão sobrecarregados, que se dá provavelmente por estarem melhores nas avaliações de desempenho na média. [Sessão de Exploração](#desempenho)
 
-O que se espera é que ao longo do tempo, com os projetos melhores distribuídos, isso impacte no nível de satisfação. Isso ainda sem pensar em aumentar o salário, dessa forma evitando custos maiores de imediato, e ainda tendo um impacto significativo.
+
+🟢 O que se espera é que ao longo do tempo, com os projetos melhores distribuídos, isso impacte no nível de satisfação. Isso ainda sem pensar em aumentar o salário, dessa forma evitando custos maiores de imediato, e ainda tendo um impacto significativo.
 
 ![NúmerodeProjetosPorGrupodeFuncionários](NúmerodeProjetosPorGrupodeFuncionários.png)
 
 <br>
 
-Mas e os funcionários que possuem entre 3 e 5 projetos, mas ainda estão saindo?
+Ainda há um caso identificado na base, que mesmo funcionários que estão com número ideal de projetos (entre 3-5 projetos) e acima dos 4 anos de empresa, estão saindo, o que vai de encontro com a recomendação acima. (**Gráfico abaixo**)
+
+<br>
+
+![% Funcionários com Número Ideal de Projetos e Saíram](NumProjetosMaisde4AnosESairam.png)
+
+
+<br>
+
+*Aqui está a possível explicação para essas saídas*
 
 <br>
 
 
-![Mais que 4 anos, 3-5 projetos e saíram](NumProjetosMaisde4AnosESairam.png)
-
-Neste gráfico, podemos ver que muitos funcionários que estão a mais de 4 anos na empresa e não parecem estar sobrecarregados estão saindo. O que poderia estar causando isso?
-
-Possível explicação:
-
-
 ![Promoção Funcionários com mais de 4](QtdFuncionariosComPromocaoMaisde4Anos.png)
 
-Apenas **1 funcionário** acima dos 4 anos recebeu promoção nos últimos 5 anos. Isso poderia ser um indicativo de insatisfação e frustração.
+Apenas **1 funcionário** dentre aqueles que já estão a pelo menos 5 anos na empresa recebeu uma promoção. O que poderia facilmente gerar incômodo e sensação de desvalorização.
+
+<br>
+
 
 ![Última Avaliação Funcionários Que Saíram E Mais de 5 Anos](ÚltimaAvaliaçãoFuncionáriosQueSaíramEMaisde5Anos.png)
 
-Aqui mais um argumento que reforçaria o motivo da saída desses funcionários. A grande maioria dos colaboradores tiveram uma pontuação excelente (acima 0.8), dessa forma devem estar realmente frustrados e desmotivados por não terem recebido.
+Além disso a grande maioria desses mesmos colaboradores tiveram uma pontuação excelente (acima 0.8), reforçando a ideia de que apesar de seus esforços, não foram valorizados pela empresa. 
 
-Para esses funcionários deve-se considerar uma promoção.
+Agora o Salário:
+
+<br>
+
+
+![Salário Funcionarios Com Mais De 4 Anos E Saíram.png](SalárioFuncionariosComMaisDe4AnosESaíram.png)
+
+Além disso, o salário desses mesmos funcionários estavam abaixo do que se esperava desse nível de profissionais.
+
+🟢 O recomendado é que haja um acompanhamento melhor desses funcionários tendo uma política de reajuste salarial e promoções mais bem definidas, pois a empresa não parece possuir um monitoramento eficiente, o que faz com que percam talentos valiosos.
+
+
+## Conclusão
+
+Como visto, há uma alta rotatividade principalmente com funcionários que estão a 4 anos na empresa, e baseado na exploração e resultados do modelo, o que mais impacta é a carga de trabalho de cada funcionário determinado pelo número de projetos, então chegou-se a conclusão que o número ideal pra cada um é entre 3 e 5 projetos.
+
+Investigando outro caso, determinou-se também, que há funcionários acima dos 4 anos, que mesmo com o número ideal de projetos, estão saindo. E descobriu-se que os motivos são a falta de promoção ou aumento do salário. O que deveria ser ajustado, visto que estes funcionários também tem um desempenho excelente, baseado em suas avaliações.
+
+Chegou se também a conclusão, que por esses motivos, a companhia necessita, de uma política de promoções / reajuste salarial, talvez inicialmente baseado na avaliação de desempenho, enquanto que em paralelo administra melhor a carga horária e número de projetos dos seus funcionários.
+
+Esses ajustes devem trazer para a empresa...

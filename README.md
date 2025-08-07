@@ -238,8 +238,8 @@ Além disso, o salário desses mesmos funcionários estavam abaixo do que se esp
 
 Como visto, há uma alta rotatividade principalmente com funcionários que estão a 4 anos na empresa, e baseado na exploração e resultados do modelo, o que mais impacta é a carga de trabalho de cada funcionário determinado pelo número de projetos, então chegou-se a conclusão que o número ideal pra cada um é entre 3 e 5 projetos.
 
-Investigando outro caso, determinou-se também, que há funcionários acima dos 4 anos, que mesmo com o número ideal de projetos, estão saindo. E descobriu-se que os motivos são a falta de promoção ou aumento do salário. O que deveria ser ajustado, visto que estes funcionários também tem um desempenho excelente, baseado em suas avaliações.
+Investigando mais, determinou-se também, que há funcionários acima dos 4 anos, que mesmo com o número ideal de projetos, estão saindo. E descobriu-se que os motivos são a falta de promoção ou aumento do salário. O que deveria ser ajustado, visto que estes funcionários também tem um desempenho excelente, baseado em suas avaliações, então afim de evitar frustração e mais saídas é crucial que essa ação seja tomada.
 
 Chegou se também a conclusão, que por esses motivos, a companhia necessita, de uma política de promoções / reajuste salarial, talvez inicialmente baseado na avaliação de desempenho, enquanto que em paralelo administra melhor a carga horária e número de projetos dos seus funcionários.
 
-Esses ajustes devem trazer para a empresa...
+> **Importante**: Após explorar os funcionários que ainda se mantiveram na empresa, descobriu-se que `53.15%` deles estão em risco de saída(baseado nas variáveis identificadas na exploração e resultado dos modelos). Além disso, usando o mesmo conceito para aqueles que saíram, verificou se que dos `3571` que saíram, `3547` (`99.33%`) foram pelos motivos destacados, ou seja, apenas 24 saíram por outros motivos.

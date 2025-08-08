@@ -220,16 +220,20 @@ Apenas **1 funcionário** dentre aqueles que já estão a pelo menos 5 anos na e
 
 ![Última Avaliação Funcionários Que Saíram E Mais de 5 Anos](ÚltimaAvaliaçãoFuncionáriosQueSaíramEMaisde5Anos.png)
 
-Além disso a grande maioria desses mesmos colaboradores tiveram uma pontuação excelente (acima 0.8), reforçando a ideia de que apesar de seus esforços, não foram valorizados pela empresa. 
+Além disso a grande maioria desses mesmos colaboradores tiveram uma pontuação excelente (acima 0.8), indo ao encontro dos resultados do segundo modelo, que trouxe sendo a de mais impacto na saída de um funcionário. O que traz a ideia de que esses funcionários estão se sentindo esquecidos e não suficientemente valorizados.
 
-Agora o Salário:
+<br>
+
+
+
+Agora o Salário destes:
 
 <br>
 
 
 ![Salário Funcionarios Com Mais De 4 Anos E Saíram.png](SalárioFuncionariosComMaisDe4AnosESaíram.png)
 
-Além disso, o salário desses mesmos funcionários estavam abaixo do que se esperava desse nível de profissionais.
+A maioria deles recebem um salário de nível baixo, que quase certamente não está acompanhando, tanto seu tempo de empresa, quanto o resultado da avaliação. Espera-se que estes colaboradores possuam pelo menos um salário de nível médio para alto.
 
 🟢 O recomendado é que haja um acompanhamento melhor desses funcionários tendo uma política de reajuste salarial e promoções mais bem definidas, pois a empresa não parece possuir um monitoramento eficiente, o que faz com que percam talentos valiosos.
 

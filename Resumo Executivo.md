@@ -6,7 +6,7 @@ Identificar os principais fatores que levam à saída de funcionários e propor 
 
 ## Principais Descobertas
 
-- Funcionários com 4 anos de empresa apresentam maior risco de saída, especialmente por sobrecarga de trabalho e falta de reconhecimento.
+- Funcionários com 4 anos de empresa apresentam maior rotatividade, especialmente por sobrecarga de trabalho e falta de reconhecimento.
 
 <br>
 
@@ -34,7 +34,15 @@ _Funcionários que saíram estão associados com baixa satisfação e com determ
 
 ![Promoção Funcionários com mais de 4](QtdFuncionariosComPromocaoMaisde4Anos.png)
 
-_Mesmo com um número "ideal" de projetos, esses funcionários ainda estão saindo e o motivo parece ser a falta de promoção, que acaba gerando sensação de desvalorização._
+<br>
+
+Resultado de suas avaliações:
+
+<br>
+
+![Última Avaliação Funcionários Que Saíram E Mais de 5 Anos](ÚltimaAvaliaçãoFuncionáriosQueSaíramEMaisde5Anos.png)
+
+_Mesmo majoriariamente este grupo tendo um número "ideal" de projetos, esses funcionários ainda estão saindo e o motivo parece ser a falta de promoção e reajustes de salários, que acaba gerando sensação de desvalorização._
 
 
 <br>
@@ -45,8 +53,12 @@ _Mesmo com um número "ideal" de projetos, esses funcionários ainda estão sain
 
 ![Salário Funcionarios Com Mais De 4 Anos E Saíram.png](SalárioFuncionariosComMaisDe4AnosESaíram.png)
 
+_Para colaboradores com esse tempo de empresa e nível de desempenho, espera-se um salário de pelo menos nível médio._
+
+<br>
 
 - 53% dos funcionários ativos apresentam fatores de risco semelhantes aos que já saíram.
+   >- _**Obs**: Para essa estimativa usou-se os critérios observados na exploração e resultados do modelo, aplicados aos funcionários que ainda não saíram da empresa. Ex: Satisfação abaixo de 0.6, Avaliação acima de 0.7, número de projetos entre 3-5 etc._
 
 
 
@@ -89,4 +101,4 @@ entregar melhores resultados.
 
 - Fortalecimento da imagem da empresa como um bom lugar para trabalhar, facilitando futuras contratações.
 
-Vale ressaltar que, embora 53% dos funcionários apresentem fatores de risco, nem todos necessariamente sairão. No entanto, atuar preventivamente sobre esse grupo pode trazer ganhos expressivos para a empresa.
+> ⚠️ **Obs:** Vale ressaltar que, embora 53% dos funcionários apresentem fatores de risco, nem todos necessariamente sairão. No entanto, atuar preventivamente sobre esse grupo pode trazer ganhos expressivos para a empresa.
